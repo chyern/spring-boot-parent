@@ -11,4 +11,11 @@
 
     <artifactId>spring-boot-core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.chenyudan</groupId>
+            <artifactId>spring-boot-domain</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
