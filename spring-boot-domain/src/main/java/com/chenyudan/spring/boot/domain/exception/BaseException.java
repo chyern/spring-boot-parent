@@ -16,7 +16,7 @@ public class BaseException extends RuntimeException {
         return error;
     }
 
-    public BaseException(IError error) {
+    public BaseException(IError error, Object... objects) {
         super(error.toString());
         this.error = error;
     }
