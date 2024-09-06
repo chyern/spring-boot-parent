@@ -23,8 +23,8 @@ public class Response<T> implements Serializable {
     Response(T result) {
         this.success = true;
         this.result = result;
-        errorCode = null;
-        errorMsg = null;
+        this.errorCode = null;
+        this.errorMsg = null;
         this.t = System.currentTimeMillis();
     }
 
