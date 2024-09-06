@@ -1,7 +1,6 @@
 package com.chenyudan.spring.boot.domain.exception;
 
 import com.chenyudan.spring.boot.domain.enums.IError;
-import lombok.Getter;
 
 /**
  * Description: TODO
@@ -11,8 +10,11 @@ import lombok.Getter;
  */
 public class BaseException extends RuntimeException {
 
-    @Getter
     private final IError error;
+
+    public IError getError() {
+        return error;
+    }
 
     public BaseException(IError error) {
         super(error.toString());

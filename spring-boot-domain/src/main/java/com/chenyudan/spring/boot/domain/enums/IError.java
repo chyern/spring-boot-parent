@@ -8,7 +8,7 @@ package com.chenyudan.spring.boot.domain.enums;
  */
 public interface IError {
 
-    int getErrorCode();
+    Integer getErrorCode();
 
     String getErrorMsg();
 }
