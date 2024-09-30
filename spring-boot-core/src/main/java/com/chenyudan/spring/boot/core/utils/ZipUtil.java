@@ -1,7 +1,7 @@
 package com.chenyudan.spring.boot.core.utils;
 
 
-import com.chenyudan.spring.boot.core.constants.Constant;
+import com.chenyudan.spring.boot.domain.constants.Constant;
 import com.chenyudan.spring.boot.core.error.BaseError;
 
 import java.io.BufferedInputStream;

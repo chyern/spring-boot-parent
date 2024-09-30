@@ -1,4 +1,4 @@
-package com.chenyudan.spring.boot.core.constants;
+package com.chenyudan.spring.boot.domain.constants;
 
 /**
  * Description: 常量
